@@ -43,3 +43,4 @@ CREATE TABLE Orders (
     FOREIGN KEY (tour_id) REFERENCES Tours(tour_id),
     FOREIGN KEY (service_id) REFERENCES Services(service_id)
 );
+
